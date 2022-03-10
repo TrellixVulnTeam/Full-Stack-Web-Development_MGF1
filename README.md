@@ -8,3 +8,7 @@ This program will allow you to create professional-grade responsive web pages an
 The program is intended for anyone interested in learning, in a practical way, to program reactive pages and mobile apps.
 
 It is developed in 4 MOOCs of 4 weeks each.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/47467891/157592232-7a8400e6-a26f-4e48-8fb8-d3f96fb11446.png">
+</p>
