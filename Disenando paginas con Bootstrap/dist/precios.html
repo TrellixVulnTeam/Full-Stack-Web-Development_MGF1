@@ -1,0 +1,462 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <!-- build:css css/index.css -->
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/stylesprecios.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- endbuild -->
+
+  </head>
+  <body>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+
+    <!-- build:js js/main.js -->
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+    <script src="js/index.js"></script>
+
+    <!-- endbuild -->
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#">HOLLYDEST</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false"    aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item"> <a class="nav-link" href="index.html">Home <i class="bi bi-house-door-fill"></i></a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">¿Quienes Somos? <i class="bi bi-people-fill"></i></a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto <i class ="bi-person-video2"></i></a></li>
+          <li class="nav-item"><a class="nav-link active" href="precios.html">Precios <i class="bi bi-exclamation-triangle-fill"></i></a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="display-4">HOTELES HOLLYDEST</h1>
+        <p class="lead">Informacion acerca de las habitaciones de nuestros Hoteles HOLLYDETS</p>
+        <hr class="my-4">
+      </div>
+    </div>
+      
+    <div class="container">
+      <div class="container">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Precios</li>
+          </ol>
+        </nav>
+      </div>
+
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="hoteles-tab" data-toggle="tab" href="#hoteles" role="tab" aria-controls="hoteles" aria-selected="true">Hoteles <i class="bi bi-hospital-fill"></i> </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="caracteristicas-tabs" data-toggle="tab" href="#caracteristicas" role="tab" aria-controls="caracteristicas" aria-selected="false">Caracteristicas <i class="bi bi-card-checklist"></i> </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="reseña-tab" data-toggle="tab" href="#reseña" role="tab" aria-controls="reseña" aria-selected="false">Reseñas <i class="bi bi-newspaper"></i>  </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="tarjetas-tab" data-toggle="tab" href="#tarjetas" role="tab" aria-controls="tarjetas" aria-selected="false">Tarjetas <i class="bi bi-credit-card-fill"></i> </a>
+        </li>
+      </ul>
+
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="hoteles" role="tabpanel" aria-labelledby="hoteles-tab">
+          <div class="table-responsive">
+            <table class="table table-striped">
+                <thead class="thead-dark">
+                    <th>Descripcion</th>
+                    <th>1 dia / 1 noche</th>
+                    <th>2 dias / 1 noche</th>
+                    <th>3 dias / 2 noches</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Habitacion 1 Estrella <i class="bi bi-star-fill"></i> </td>
+                        <td>$100</td>
+                        <td>$300</td>
+                        <td>$500</td>
+                    </tr>
+                    <tr>
+                        <td>Habitacion 3 Estrellas <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i></td>
+                        <td>$300</td>
+                        <td>$500</td>
+                        <td>$800</td>
+                    </tr>
+                    <tr>
+                        <td>Habitacion 5 Estrellas <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i></td>
+                        <td>$800</td>
+                        <td>$1000</td>
+                        <td>$1500</td>
+                    </tr>
+                </tbody>
+            </table>
+          </div>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-4">
+                <img class="card-img-top" src="images/habitacionsencilla.jpg" alt="hotel img">
+                <p><h5>Habitacion 1 Estrella</h5></p>
+              </div>
+      
+              <div class="col-4">
+                <img class="card-img-top" src="images/habitacionmoderna.jpg" alt="hotel img">
+                <p><h5>Habitacion 3 Estrellas</h5></p>
+              </div>
+      
+              <div class="col-4">
+                <img class="card-img-top" src="images/habitaciondelujo.jpg" alt="hotel img">
+                <p><h5>Habitacion 5 Estrellas</h5></p>
+              </div>
+            </div>
+          </div>  
+        </div>
+
+        <div class="tab-pane fade" id="caracteristicas" role="tabpanel" aria-labelledby="caracteristicas-tab">
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead class="thead-dark">
+                  <th>Habitacion 1 Estrella <i class="bi bi-star-fill"></i> </th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Ocupación de 2 personas máximo por habitación con cama king size o camas individuales.</td>
+                </tr>
+                <tr>
+                  <td>Incluido el servicio de Programacion Basica Television.</td>
+                </tr>
+                <tr>
+                  <td>Baño acondicionado con regadera.</td>
+                </tr>
+                <tr>
+                  <td>Servicio de valet parking.</td>
+                </tr>
+                
+              </tbody>
+            </table>
+
+            <table class="table table-striped">
+              <thead class="thead-dark">
+                <th>Habitacion 3 Estrellas <i class="bi bi-star-fill"></i>  <i class="bi bi-star-fill"></i>  <i class="bi bi-star-fill"></i> </th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>La tarifa cubre hasta tres 3 adultos con cama king size o camas individuales.</td>
+                </tr>
+                <tr>
+                  <td>Incluido el servicio de Programacion Media Television.</td>
+                </tr>
+                <tr>
+                  <td>2 Baños acondicionados con regadera.</td>
+                </tr>
+                <tr>
+                  <td>Desayuno americano para cada uno.</td>
+                </tr>
+                <tr>
+                  <td>Acceso al Area Didactica.</td>
+                </tr>
+                <tr>
+                  <td>Servicio de valet parking.</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <table class="table table-striped">
+              <thead class="thead-dark">
+                <th>Habitacion 5 Estrellas <i class="bi bi-star-fill"></i>  <i class="bi bi-star-fill"></i>  <i class="bi bi-star-fill"></i>  <i class="bi bi-star-fill"></i>  <i class="bi bi-star-fill"></i> </th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Confortables y espaciosas habitaciones con una cama tipo king size en el dormitorio y sofá cama tipo matrimonial en estancia.
+                    La tarifa cubre hasta dos adultos y dos menores compartiendo la habitación.</td>
+                </tr>
+                <tr>
+                    <td>Incluido el servicio de Programacion Premium Television.</td>
+                  </tr>
+                  <tr>
+                    <td>2 Baños acondicionados con regadera y Jackuzi</td>
+                  </tr>
+                  <tr>
+                    <td>Desayuno americano para cada uno.</td>
+                  </tr>
+                  <tr>
+                    <td>Acceso al Area Didactica.</td>
+                  </tr>
+                  <tr>
+                    <td>Acceso al Bar.</td>
+                  </tr>
+                  <tr>
+                    <td>Acceso a las Picinas.</td>
+                  </tr>
+                  <tr>
+                    <td>Servicio de valet parking.</td>
+                  </tr>
+                  <tr>
+                    <td>BUFFET POR LAS MAÑANAS DURANTE SU INSTANCIA.</td>
+                  </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Servicio de television</h5>
+                    <img class="card-img-top" src="images/guiabasicatv.jpg" alt="hotel img">
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Bar</h5>
+                    <img class="card-img-top" src="images/bar.jpg" alt="hotel img">
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Buffete</h5>
+                    <img class="card-img-top" src="images/buffet.jpg" alt="hotel img">
+                  </div>
+                </div>
+              </div>
+      
+              <div class="col-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Jacuzzi</h5>
+                    <img class="card-img-top" src="images/jacuzzi.jpg" alt="hotel img">
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Picina</h5>
+                    <img class="card-img-top" src="images/picina.jpg" alt="hotel img">
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>  
+        </div>
+
+        <div class="tab-pane fade" id="reseña" role="tabpanel" aria-labelledby="reseña-tab">
+          <div class="card-columns">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">ANDREA PRADA</h5>
+                <p class="card-text">Al principio tuve un par de problemas con el servicio de atención al cliente durante mi estancia. El gerente del hotel se puso en contacto conmigo directamente y mi opinión sobre la atención al cliente cambió. Durante mi estancia el hotel tenía muchos huéspedes. Reservé una noche y no estuve mucho en la habitación. Creo que los problemas que tuve se habrían solucionado inmediatamente si me hubiese dado cuenta antes. Me alojaría en el hotel de nuevo pero sólo me alojaría en una de las habitaciones grandes.</p>
+                <p class="card-text  text-right"><small class="text-muted">Hace 5 meses... <i class="bi bi-hand-thumbs-up-fill"> 47 </i><i class="bi bi-hand-thumbs-down-fill"> 3</i></small></p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">LUIS ALBERTO MARTINEZ</h5>
+                <p class="card-text">Muy lindo hotel me ayudaron mucho con mi hija con discapacidad la subían y la bajaban. Es un hotel limpio familiar y a la vez algo misterioso sus espejos eran muy antiguos. Pero con una ubicación cercana a todo el centro.</p>
+                <p class="card-text  text-right"><small class="text-muted">Hace 1 año.. <i class="bi bi-hand-thumbs-up-fill"> 12 </i><i class="bi bi-hand-thumbs-down-fill"> 1</i></small></p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">CAROLINA MEDRAN</h5>
+                <p class="card-text">A unos pasos del centro histórico, de la Alameda, es un espacio agradable para el descanso, solo dos detalles no muy agradables, el estacionamiento es muy pequeño y el restaurante no tiene variedad de platillos, e incluso muy picantes los alimentos que se ofrecen.</p>
+                <p class="card-text  text-right"><small class="text-muted">Hace 1 dia... <i class="bi bi-hand-thumbs-up-fill"> 8 </i><i class="bi bi-hand-thumbs-down-fill"> 0</i></small></p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">RODOLFO URRUTIA</h5>
+                <p class="card-text">El hotel es hermoso, lleno de detalles, las camas confortables, decoracion muy buena, atencion esmerada y siempre con una sonrisa.
+                  Muy bien ubicado (se puede llegar caminando a tiendas y restaurantes)
+                  Una buena opcion para descansar y guarecerse del eterno frio y lluvia del Puget Sound.</p>
+                <p class="card-text  text-right"><small class="text-muted">Hace 1 año... <i class="bi bi-hand-thumbs-up-fill"> 29 </i><i class="bi bi-hand-thumbs-down-fill"> 0</i></small></p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">JAQUELINE ACEVES</h5>
+                <p class="card-text">El personal es atento y agradable y aunque habíamos reservado una habitación nos dieron una suite al llegar. El hotel tiene mucho estilo, es muy cómodo y el precio es razonable, teniendo en cuenta su calidad y ubicación.</p>
+                <p class="card-text  text-right"><small class="text-muted">Hace 2 dias... <i class="bi bi-hand-thumbs-up-fill"> 17 </i><i class="bi bi-hand-thumbs-down-fill"> 0</i></small></p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">MIGUEL ANGEL</h5>
+                <p class="card-text">El hotel era excelente. Me alojé aquí el pasado mayo. El personal es agradable, la ubicación es estupenda y las habitaciones son muy bonitas y grandes.</p>
+                <p class="card-text  text-right"><small class="text-muted">Hacce 4 meses... <i class="bi bi-hand-thumbs-up-fill"> 25 </i><i class="bi bi-hand-thumbs-down-fill"> 1</i></small></p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">ADRIAN SEVILLA</h5>
+                <p class="card-text">Este es un hotel muy agradable. Cuenta con amplias habitaciones con zona de estar y escritorio. El personal era muy amable y servicial. Las habitaciones estaban por encima del tablero.</p>
+                <p class="card-text  text-right"><small class="text-muted">Hace 1 mes... <i class="bi bi-hand-thumbs-up-fill"> 12 </i><i class="bi bi-hand-thumbs-down-fill"> 0</i></small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="tarjetas" role="tabpanel" aria-labelledby="tarjetas-tab">
+          <div class="accordion" id="accordionTarjetas">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseCredito" aria-expanded="true" aria-controls="collapseCredito">
+                    Tarjetas Credito
+                  </button>
+                </h5>
+              </div>
+
+              <div id="collapseCredito" class="collapse" aria-labelledby="headingOne" data-parent="#accordionTarjetas">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-3">
+                      <p>
+                        VISA GOLD
+                      </p>
+                      <p>
+                        VISA BASIC
+                      </p>
+                      <p>
+                        VISA PLATINUM
+                      </p>
+                      <p>
+                        VISA BUSSINES
+                      </p>
+                      <p>
+                        MASTER CARD
+                      </p>
+                    </div>
+
+                    <div class="col-3">
+                      <p>
+                        <img class="card-img-tarjetas" src="images/tarjetagold.png">
+                      </p>
+                    </div>
+
+                    <div class="col-3">
+                      <p>
+                        <img class="card-img-tarjetas" src="images/tarjetaplatinum.png">
+                      </p>
+                    </div>
+
+                    <div class="col-3">
+                      <p>
+                        <img class="card-img-tarjetas" src="images/tarjetamastercard.jpg">
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseDebito" aria-expanded="true" aria-controls="collapseDebito">
+                    Tarjetas Debito
+                  </button>
+                </h5>
+              </div>
+
+              <div id="collapseDebito" class="collapse" aria-labelledby="headingOne" data-parent="#accordionTarjetas">
+                <div class="card-body">
+                  <div class="row">
+
+                    <div class="col-3">
+                      <p>
+                        <img class="card-img-tarjetas" src="images/tarjetahsbc.jpg">
+                      </p>
+                    </div>
+
+                    <div class="col-3">
+                      <p>
+                        <img class="card-img-tarjetas" src="images/tarjetaamericanexpress.png">
+                      </p>
+                    </div>
+
+                    <div class="col-3">
+                      <p>
+                        <img class="card-img-tarjetas" src="images/tarjetabbva.png">
+                      </p>
+                    </div>
+
+                    <div class="col-3">
+                      <p>
+                        CITIBANAMEX
+                      </p>
+                      <p>
+                        HSBC
+                      </p>
+                      <p>
+                        BBVA BANCOMER
+                      </p>
+                      <p>
+                        BANREGIO
+                      </p>
+                      <p>
+                        AFIRME
+                      </p>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer">
+        <h3>CONTACTO:</h3>
+        <p><i class="bi bi-phone-fill footer-address-icon"></i>Telefono: 557455100.</p>
+        <p><i class="bi bi-envelope-fill footer-address-icon"></i>Correo: hoteleshollydest@correo.com</p>
+      </div>
+    </footer>
+
+  </body>
+
+</html>

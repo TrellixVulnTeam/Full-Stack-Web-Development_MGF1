@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <!-- build:css css/index.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- endbuild -->
+
+  </head>
+  <body>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+ 
+    <!-- build:js js/main.js -->
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+    <script src="js/index.js"></script>
+
+    <!-- endbuild -->
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#">HOLLYDEST</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active"> <a class="nav-link" href="index.html">Home <i class="bi bi-house-door-fill"></i></a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">¿Quienes Somos? <i class="bi bi-people-fill"></i></a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto <i class="bi bi-person-video2"></i></a></li>
+          <li class="nav-item"><a class="nav-link" href="precios.html">Precios <i class="bi bi-exclamation-triangle-fill"></i></a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="display-4">HOTELES HOLLYDEST</h1>
+        <p class="lead">Informacion acerca de las habitaciones de nuestros Hoteles HOLLYDETS</p>
+        <hr class="my-4">
+      </div>
+    </div>
+      
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item active" aria-current="page">Home</li>
+        </ol>
+      </nav>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#calidad" aria-expanded="false" aria-controls="multiCollapse1">
+            ¿Como funciona?
+          </button>
+        </div>
+        <div class="col-sm-4">
+          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#lugarseguro" aria-expanded="false" aria-controls="multiCollapse2">
+            ¿Buscas un lugar seguro?
+          </button>
+        </div>
+        <div class="col-sm-4">
+          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#precio" aria-expanded="false" aria-controls="multiCollapse3">
+            ¿Buscas un buen precio?
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col collapse multi-collapse" id="calidad">
+          <p>
+            <h3>¿Buscas calidad?</h3>
+            <p>Visitanos y pasa una experiencia inolvidable.</p>
+          </p> 
+        </div>
+
+        <div class="col collapse multi-collapse" id="lugarseguro">
+          <p>
+            <h3>¿Buscas un lugar seguro?</h3>
+            <p>Ofrecemos seguridad desde el momento que ingresas hasta qué sales de nuestros hoteles.</p>
+          </p> 
+        </div>
+
+        <div class="col collapse multi-collapse" id="precio">
+          <p>
+            <h3>¿Buscas un buen precio?</h3>
+            <p>Nosotros tenemos muchas habitaciones que se adaptan a todos nuestros clientes.</p>
+          </p> 
+        </div>
+
+        <div id="carouselControls" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselControls" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselControls" data-slide-to="1"></li>
+            <li data-target="#carouselControls" data-slide-to="2"></li>
+          </ol>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block" src="images/hotels.jpg" alt="Primer slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block" src="images/hotelcarrucel1.jpg" alt="Segundo slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block" src="images/hotelcarrucel2.jpg" alt="Tercer slide">
+            </div>
+          </div>
+          
+          <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+          </a>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="d-flex flex-wrap">
+        <div class="card card-hotel d-flex flex-column justify-content-between" >
+          <div class="card-body">
+            <h3 class="card-title" data-toggle="tooltip" data-placement="top" title="¿Aun dudas? Prueba lo que es hospdarte con nosotros" >HABITACIONES 1 ESTRELLA</h3>
+            <h4 class="card-subtitle text-muted">Informacion</h4>
+            <p class="card-text">Da click aqui para conocer más.</p>
+            <img class="card-img-top" src="images/habitacionsencilla.jpg" alt="hotel img">
+          </div>
+
+          <div>
+            <button class="btn btn-primary btn-second" data-toggle="collapse" data-target="#vermas1estrella" aria-expanded="false" aria-controls="multiCollapse4">Click aqui <i class="bi bi-caret-down-fill"></i>
+            </button> 
+            <p></p>
+            <div class="col collapse multi-collapse" id="vermas1estrella">
+              <p>
+                <p>Asegurate de ver las caracteristicas en la seccion de Precios.</p>
+              </p> 
+            </div>
+          </div>
+
+        </div>
+      
+        <div class="card card-hotel d-flex flex-column justify-content-between" >
+          <div class="card-body">
+            <h3 class="card-title" data-toggle="tooltip" data-placement="top" title="¿Aun dudas? Prueba lo que es hospdarte con nosotros">HABITACIONES 3 ESTRELLAS</h3>
+            <h4 class="card-subtitle text-muted">Informacion</h4>
+            <p class="card-text ">Da click aqui para conocer más.</p>
+            <img class="card-img-top" src="images/habitacionmoderna.jpg" alt="hotel img">
+          </div>
+
+          <div>
+            <button class="btn btn-primary btn-second" data-toggle="collapse" data-target="#vermas3estrellas" aria-expanded="false" aria-controls="multiCollapse5">Click aqui <i class="bi bi-caret-down-fill"></i>
+            </button> 
+            <p></p>
+            <div class="col collapse multi-collapse" id="vermas3estrellas">
+              <p>
+                <p>Asegurate de ver las caracteristicas en la seccion de Precios.</p>
+              </p> 
+            </div>
+          </div>
+
+        </div>
+          
+        <div class="card card-hotel d-flex flex-column justify-content-between" >
+          <div class="card-body">
+            <h3 class="card-title" data-toggle="tooltip" data-placement="top" title="¿Aun dudas? Prueba lo que es hospdarte con nosotros">HABITACIONES 5 ESTRELLAS</h3>
+            <h4 class="card-subtitle text-muted">Informacion</h4>
+            <p class="card-text">Da click aqui para conocer más.</p>
+            <img class="card-img-top" src="images/habitaciondelujo.jpg" alt="hotel img">
+          </div>
+
+          <div>
+            <button class="btn btn-primary btn-second" data-toggle="collapse" data-target="#vermas5estrellas" aria-expanded="false" aria-controls="multiCollapse6">Click aqui <i class="bi bi-caret-down-fill"></i>
+            </button> 
+            <p></p>
+            <div class="col collapse multi-collapse" id="vermas5estrellas">
+              <p>
+                <p>Asegurate de ver las caracteristicas en la seccion de Precios.</p>
+              </p> 
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card card-hotel d-flex flex-column justify-content-between">
+        <div class="card-body">
+          <h3 class="card-title">¿Quieres qué nos comuniquemos contigo?</h3>
+          <p></p>
+          <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#formContacto" id="formBtn">Formulario</button>
+        </div>
+      </div>
+
+      <div class="modal fade" id="formContacto" tabindex="-1" aria-labelledby="modalContacto" aria-hidden="" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalContacto">Formulario de contacto</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="recipient-name" class="col-form-label">
+                    Email:
+                  </label> 
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+
+                <div class="form-group">
+                  <label for="message-text" class="col-form-label">
+                    Mensaje:
+                  </label> 
+                  <textarea class="form-control" id="message-text"></textarea>
+                </div>
+
+              </form>
+            </div>
+
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary">Enviar</button>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <footer>
+      <div class="footer">
+        <h3>CONTACTO:</h3>
+        <p><i class="bi bi-phone-fill footer-address-icon"></i>Telefono: 557455100.</p>
+        <p><i class="bi bi-envelope-fill footer-address-icon"></i>Correo: hoteleshollydest@correo.com</p>
+      </div>
+    </footer>
+
+  </body>
+</html>
