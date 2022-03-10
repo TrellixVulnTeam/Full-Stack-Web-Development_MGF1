@@ -2,7 +2,7 @@
 $yellow:#C6C9CF;
 
 .jumbotron {
-    background-color: #C6C9CF;
+    background-color: $yellow;
     margin-top: 1px;
   }
   
@@ -25,7 +25,7 @@ $yellow:#C6C9CF;
   }
   
   .footer {
-    background-color: #C6C9CF;
+    background-color: $yellow;
     color: black;
     margin-top: 40px;
     margin-bottom: 0px;
