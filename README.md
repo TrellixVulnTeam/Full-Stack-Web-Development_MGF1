@@ -1,6 +1,8 @@
 # Full-Stack-Web-Development
 Full Stack Web Development in Coursera
 
+<p style="text-align: justify;">
+
 Currently, web pages have become applications in themselves, with more components than ever before, and with more demands from their consumers and customers.
 
 This program will allow you to create professional-grade responsive web pages and native mobile apps. Likewise, it will provide you with tools, both to create web pages, applying designs made by professional designers, and to program the backend that supports a mobile or web application.
@@ -24,6 +26,8 @@ In MOOC 4 you will give persistence to information, configure a web server, crea
 Offered: Austral University
 
 Level: Beginner-At least basic knowledge of javascript, html and css.
+  
+</p>
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/47467891/157592232-7a8400e6-a26f-4e48-8fb8-d3f96fb11446.png">
