@@ -22,8 +22,6 @@ In MOOC 3 you will develop native cross-platform applications, and native iOS an
 
 In MOOC 4 you will give persistence to information, configure a web server, create a REST API and integrate third-party libraries. You will use Express and MongoDB. You will perform CRUD tasks and make your site productive on Heroku.
 
-</p>
-
 Offered: Austral University
 
 Level: Beginner-At least basic knowledge of javascript, html and css.
