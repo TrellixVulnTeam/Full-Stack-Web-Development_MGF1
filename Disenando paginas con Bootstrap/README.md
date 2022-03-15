@@ -12,5 +12,6 @@ Course 1 of 4 in Full Stack Web Development in Spanish Specialization
 
 Level: Beginner
 
-
-https://user-images.githubusercontent.com/47467891/158295916-25cc6e40-9a40-4594-aeb9-2a684d1cd74c.png
+<p align="center">
+<img src="https://user-images.githubusercontent.com/47467891/158295916-25cc6e40-9a40-4594-aeb9-2a684d1cd74c.png">
+</p>
